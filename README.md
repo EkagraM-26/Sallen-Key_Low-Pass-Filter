@@ -109,7 +109,7 @@ Input:
 
 Result:
 
-- THD = XX %
+- THD = 0.0011 %
 
 (See results/thd_log.txt)
 
@@ -178,6 +178,6 @@ Result:
 
 Ekagra Maheshwari
 
-B.Tech Electronics & Electrical Engineering
+IIT Guwahati B.Tech in Electronics & Electrical Engineering
 
-Interested in Analog IC Design, Signal Chain Design, and Embedded Systems.
+Interested in Analog IC Design, Signal Chain Design, and Digital Systems.
