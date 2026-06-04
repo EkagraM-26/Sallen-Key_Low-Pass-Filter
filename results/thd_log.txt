@@ -1,0 +1,128 @@
+Circuit: * C:\Users\DELL\OneDrive - Indian Institute of Technology Guwahati\Documents\LTspiceXVII\lib\sym\Sallen key.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+Gmin = 10.7374
+Gmin = 1.15292
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.4029
+vernier = 0.888888
+vernier = 1
+Gmin = 0.06089
+Gmin = 0.00653801
+Gmin = 0.000702013
+vernier = 0.5
+vernier = 0.25
+Gmin = 0.000216504
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 0.000208316
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 0.000206898
+vernier = 0.00520833
+vernier = 0.00694444
+Gmin = 0.000203869
+vernier = 0.00925925
+vernier = 0.0123457
+Gmin = 0.000199133
+vernier = 0.0164609
+Gmin = 0.000191906
+vernier = 0.0219478
+vernier = 0.0292638
+Gmin = 0.000180371
+vernier = 0.0390184
+vernier = 0.0520245
+Gmin = 0.000163424
+vernier = 0.0693659
+Gmin = 0.000139981
+vernier = 0.0924879
+vernier = 0.123317
+Gmin = 0.000108083
+vernier = 0.164423
+vernier = 0.21923
+Gmin = 7.17906e-005
+vernier = 0.292307
+Gmin = 3.7983e-005
+vernier = 0.389743
+vernier = 0.519657
+Gmin = 1.33393e-005
+vernier = 0.692876
+vernier = 0.923834
+Gmin = 2.64412e-006
+vernier = 1
+Gmin = 3.01889e-007
+Gmin = 3.24151e-008
+Gmin = 3.48054e-009
+Gmin = 3.7372e-010
+Gmin = 4.01279e-011
+Gmin = 4.3087e-012
+Gmin = 4.62644e-013
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 4.04013e-013
+vernier = 0.166667
+vernier = 0.222222
+Gmin = 2.60745e-013
+vernier = 0.111111
+vernier = 0.0555555
+vernier = 0.0277778
+vernier = 0.0138889
+Gmin = 2.4931e-013
+vernier = 0.00694444
+vernier = 0.00347222
+vernier = 0.00173611
+vernier = 0.000868055
+Gmin = 2.49309e-013
+vernier = 0.000434028
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Heightened Def Con from 9.24866e-007 to 9.24866e-007
+Heightened Def Con from 1.05287e-006 to 1.05287e-006
+Heightened Def Con from 1.11687e-006 ++++++++++++++++++++++to 1.11687e-006
+Heightened Def Con from 1.17945e-006 ++to 1.17945e-006
+Heightened Def Con from 1.48801e-006 +++++++++++++++++++++++++++++++to 1.48801e-006
+Heightened Def Con from 1.57236e-006 +++++++++++++++++++++++++to 1.57236e-006
+N-Period=1
+Fourier components of V(vout)
+DC component:0.000997163
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	1.000e+03	9.995e-01	1.000e+00	  -14.98°	    0.00°
+    2   	2.000e+03	3.596e-06	3.598e-06	  -86.62°	  -71.64°
+    3   	3.000e+03	3.598e-06	3.599e-06	  -84.73°	  -69.76°
+    4   	4.000e+03	3.604e-06	3.606e-06	  -82.95°	  -67.97°
+    5   	5.000e+03	3.592e-06	3.593e-06	  -81.06°	  -66.09°
+    6   	6.000e+03	3.590e-06	3.592e-06	  -79.09°	  -64.12°
+    7   	7.000e+03	3.595e-06	3.597e-06	  -77.36°	  -62.38°
+    8   	8.000e+03	3.595e-06	3.596e-06	  -75.49°	  -60.52°
+    9   	9.000e+03	3.589e-06	3.591e-06	  -73.54°	  -58.56°
+Total Harmonic Distortion: 0.001017%(0.055606%)
+
+
+
+Date: Thu Jun 04 11:37:01 2026
+Total elapsed time: 1.653 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 20127
+traniter = 15127
+tranpoints = 2738
+accept = 1694
+rejected = 1130
+matrix size = 252
+fillins = 442
+solver = Normal
+Thread vector: 8.9/4.4[7] 4.6/1.9[7] 5.9/2.7[7] 1.2/2.3[1]  2592/500
+Matrix Compiler1: 39.52 KB object code size  11.0/4.2/[2.5]
+Matrix Compiler2: 29.09 KB object code size  10.2/10.0/[1.4]

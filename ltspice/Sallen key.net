@@ -1,0 +1,21 @@
+* C:\Users\DELL\OneDrive - Indian Institute of Technology Guwahati\Documents\LTspiceXVII\lib\sym\Sallen key.asc
+XU1 N005 N003 N007 N001 N003 OPAx134
+XU2 N006 Vout N007 N001 Vout OPAx134
+R1A N002 P001 {mc(17.4k, R_tol)}
+R2A N002 N005 {mc(17.4k, R_tol)}
+C1A N003 N002 {mc(1n, C_tol)}
+C2A 0 N005 {mc(820p, C_tol)}
+C2B N006 0 {mc(150p, C_tol)}
+R1B N004 N003 {mc(41.2k, R_tol)}
+R2B N006 N004 {mc(41.2k, R_tol)}
+C1B Vout N004 {mc(1n, C_tol)}
+V1 N007 0 15
+V2 0 N001 15
+Vin P001 0 AC 1
+.include OPAx134.lib
+.ac dec 100 100 10Meg
+.step param run 1 200 1
+.param R_tol = 0.05
+.param C_tol = 0.05
+.backanno
+.end
